@@ -1,0 +1,11 @@
+location_id,location_name,location_type,allowed_categories,restricted_status
+LOC-01,Warehouse 01,storage,Raw Material|Spare Parts,Reject
+LOC-02,Warehouse 02,storage,Raw Material,Reject
+LOC-03,Inbound Dock,inbound,Raw Material|Packaging|Finished Goods|Spare Parts,
+LOC-04,QA Hold Area,quality_hold,Raw Material|Finished Goods,Ready|Dispatch
+LOC-05,Warehouse 03,storage,Packaging|Spare Parts,
+LOC-06,Finished Goods Zone,finished_goods_storage,Finished Goods,Reject
+LOC-07,Yard A,yard,Finished Goods,On Hold|Unreleased
+LOC-08,Dispatch Zone,dispatch,Finished Goods,On Hold|Unreleased|Reject
+LOC-09,Packaging Zone,storage,Packaging,Reject
+LOC-10,Maintenance Cage,maintenance,Spare Parts,

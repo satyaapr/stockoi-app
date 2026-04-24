@@ -1,0 +1,325 @@
+transaction_id,timestamp,item_code,batch_id,quantity,unit,location,status,source_type,operator_name,note
+TXN-0134,2026-03-04 01:00:00,RM-4527,B-01-004,500,liters,Warehouse 01,On Hold,ocr_import,Anita Dispatch,item stayed on hold without review
+TXN-0017,2026-03-04 01:00:00,FG-3340,B-28-003,10,sets,Finished Goods Zone,On Hold,manual,Rina Ops,item stayed on hold without review
+TXN-0015,2026-03-04 03:00:00,PK-7572,B-70-002,10,boxes,Inbound Dock,On Hold,ocr_import,Dewi QA,item stayed on hold without review
+TXN-0026,2026-03-05 02:00:00,PK-2169,B-69-005,80,packs,Packaging Zone,On Hold,batch_upload,Dewi QA,item stayed on hold without review
+TXN-0104,2026-03-05 05:00:00,FG-2489,B-41-002,180,units,Finished Goods Zone,On Hold,batch_upload,Rina Ops,item stayed on hold without review
+TXN-0093,2026-03-05 08:00:00,RM-2824,B-09-003,1250,kg,QA Hold Area,On Hold,manual,Sinta QA,item stayed on hold without review
+TXN-0200,2026-03-06 05:00:00,RM-4611,B-16-004,300,sheets,Warehouse 01,On Hold,ocr_import,Sinta QA,item stayed on hold without review
+TXN-0218,2026-03-06 08:00:00,FG-4593,B-70-003,180,units,Warehouse 03,On Hold,batch_upload,Sinta QA,item stayed on hold without review
+TXN-0221,2026-03-07 05:00:00,PK-4483,B-31-002,40,packs,Warehouse 03,On Hold,ocr_import,Aldi Pratama,item stayed on hold without review
+TXN-0204,2026-03-07 05:00:00,RM-4811,B-40-002,120,kg,Dispatch Zone,On Hold,manual,Dewi QA,item stayed on hold without review
+TXN-0052,2026-03-07 07:00:00,PK-4733,B-53-003,40,boxes,Inbound Dock,On Hold,manual,Rizal Gudang,item stayed on hold without review
+TXN-0242,2026-03-08 02:00:00,FG-4593,B-95-002,15,units,Dispatch Zone,On Hold,ocr_import,Sinta QA,item stayed on hold without review
+TXN-0235,2026-03-09 05:00:00,PK-3664,B-52-002,25,boxes,Maintenance Cage,On Hold,batch_upload,Dewi QA,item stayed on hold without review
+TXN-0141,2026-03-12 01:00:00,FG-8668,B-52-003,25,boxes,Yard A,On Hold,batch_upload,Rina Ops,item stayed on hold without review
+TXN-0069,2026-03-12 05:00:00,RM-2584,B-30-001,200,liters,Warehouse 02,On Hold,batch_upload,Aldi Pratama,item stayed on hold without review
+TXN-9004,2026-03-18 08:59:00,RM-0059,B-04-001,850,kg,Warehouse 01,On Hold,manual,Rizal Gudang,item stayed on hold without review
+TXN-0177,2026-03-20 08:35:00,SP-8433,B-17-002,430,units,Warehouse 03,On Hold,ocr_import,Rina Ops,batch received and logged
+TXN-0086,2026-03-20 10:52:00,PK-2169,B-14-001,100,packs,Packaging Zone,Ready,manual,Rizal Gudang,initial intake
+TXN-0067,2026-03-20 11:20:00,RM-0059,B-08-002,1250,kg,Maintenance Cage,Need Review,manual,Rina Ops,batch received and logged
+TXN-0224,2026-03-20 12:51:00,RM-8527,B-36-004,1000,kg,Inbound Dock,Ready,manual,Sinta QA,verified by operator
+TXN-0208,2026-03-20 14:13:00,FG-8668,B-31-002,10,boxes,Yard A,Ready,batch_upload,Sinta QA,batch received and logged
+TXN-0142,2026-03-20 14:28:00,PK-0291,B-78-001,50,pcs,Inbound Dock,Need Review,ocr_import,Sinta QA,manual upload might duplicate earlier record
+TXN-0234,2026-03-20 17:47:00,RM-2584,B-05-003,200,liters,Warehouse 02,On Hold,manual,Anita Dispatch,verified by operator
+TXN-0237,2026-03-20 18:46:00,PK-7227,B-46-001,-5,boxes,Warehouse 03,Need Review,batch_upload,Dewi QA,quantity outlier detected
+TXN-0303,2026-03-20 18:49:00,PK-3664,B-52-002,25,boxes,Warehouse 03,Reject,ocr_import,Rina Ops,verified by operator
+TXN-0022,2026-03-20 19:07:00,FG-2489,B-08-003,15,units,Finished Goods Zone,Unreleased,batch_upload,Anita Dispatch,location confirmed
+TXN-0279,2026-03-20 20:15:00,FG-4593,B-75-001,430,units,Dispatch Zone,Unreleased,manual,Anita Dispatch,awaiting QA release
+TXN-0112,2026-03-20 22:33:00,PK-3677,B-60-005,25,boxes,Warehouse 03,Reject,ocr_import,Rizal Gudang,batch received and logged
+TXN-0009,2026-03-20 23:04:00,SP-5315,B-41-001,50,pcs,Warehouse 03,On Hold,ocr_import,Sinta QA,initial intake
+TXN-0144,2026-03-21 01:18:00,FG-8668,B-87-001,10,boxes,Yard A,Reject,ocr_import,Dewi QA,batch received and logged
+TXN-0309,2026-03-21 03:11:00,PK-0291,B-21-006,1250,pcs,Inbound Dock,Need Review,batch_upload,Dewi QA,verified by operator
+TXN-0121,2026-03-21 04:27:00,RM-2824,B-94-001,850,kg,QA Hold Area,Ready,batch_upload,Sinta QA,batch received and logged
+TXN-0175,2026-03-21 10:26:00,FG-8019,B-85-001,75,boxes,Yard A,Reject,manual,Aldi Pratama,quantity outlier detected
+TXN-0219,2026-03-21 10:55:00,RM-3615,B-76-004,160,sheets,Finished Goods Zone,Ready,batch_upload,Sinta QA,verified by operator
+TXN-0147,2026-03-21 13:19:00,SP-8433,B-51-001,430,units,Warehouse 03,Ready,batch_upload,Rizal Gudang,location confirmed
+TXN-0031,2026-03-21 13:46:00,PK-4483,B-22-003,20,packs,Warehouse 03,Ready,ocr_import,Dewi QA,initial intake
+TXN-0101,2026-03-21 14:15:00,PK-3677,B-18-001,40,boxes,Warehouse 03,Need Review,manual,Rina Ops,batch received and logged
+TXN-0172,2026-03-21 16:22:00,FG-2040,B-66-003,45,sets,Inbound Dock,Unreleased,manual,Rina Ops,quantity outlier detected
+TXN-0205,2026-03-21 16:31:00,SP-8433,B-51-001,90,units,Warehouse 03,On Hold,manual,Rizal Gudang,initial intake
+TXN-0114,2026-03-21 18:00:00,FG-4593,B-70-003,180,units,Dispatch Zone,Unreleased,ocr_import,Sinta QA,location confirmed
+TXN-0087,2026-03-21 18:18:00,FG-3621,B-75-001,25,boxes,Yard A,Unreleased,ocr_import,Rizal Gudang,item moved to non-standard area
+TXN-0275,2026-03-21 18:19:00,RM-6925,B-17-003,180,rolls,QA Hold Area,Ready,ocr_import,Rina Ops,verified by operator
+TXN-0090,2026-03-21 18:27:00,PK-3677,B-32-006,10,boxes,Dispatch Zone,Ready,batch_upload,Rina Ops,stock update completed
+TXN-0174,2026-03-21 18:35:00,SP-1188,B-75-003,250,pcs,Warehouse 03,Need Review,manual,Dewi QA,verified by operator
+TXN-0263,2026-03-21 19:45:00,RM-2584,B-30-001,50,liters,Warehouse 02,On Hold,ocr_import,Dewi QA,stock update completed
+TXN-0078,2026-03-21 19:59:00,RM-0059,B-31-003,-5,kg,Warehouse 01,Need Review,batch_upload,Sinta QA,quantity outlier detected
+TXN-0088,2026-03-21 20:57:00,RM-6925,B-74-005,20,rolls,QA Hold Area,Ready,batch_upload,Dewi QA,batch received and logged
+TXN-0291,2026-03-21 21:28:00,SP-8433,B-51-001,40,units,Warehouse 03,Reject,batch_upload,Sinta QA,location confirmed
+TXN-0025,2026-03-21 21:39:00,RM-4657,B-61-005,20,rolls,QA Hold Area,Ready,batch_upload,Dewi QA,routine inbound processing
+TXN-0305,2026-03-21 22:57:00,PK-6313,B-57-001,250,pcs,Inbound Dock,Ready,batch_upload,Sinta QA,batch received and logged
+TXN-0260,2026-03-21 23:48:00,RM-2824,B-09-003,120,kg,QA Hold Area,Ready,manual,Rizal Gudang,inspection pending
+TXN-0100,2026-03-22 00:16:00,SP-8433,B-17-002,430,units,Warehouse 02,Need Review,batch_upload,Anita Dispatch,verified by operator
+TXN-0049,2026-03-22 00:20:00,FG-4593,B-95-002,90,units,Maintenance Cage,On Hold,ocr_import,Dewi QA,routine inbound processing
+TXN-0307,2026-03-22 03:43:00,RM-4657,B-17-002,120,rolls,QA Hold Area,Ready,manual,Aldi Pratama,location confirmed
+TXN-0149,2026-03-22 04:48:00,RM-0059,B-31-003,500,kg,Warehouse 01,On Hold,ocr_import,Dewi QA,verified by operator
+TXN-0184,2026-03-22 05:00:00,RM-4657,B-71-006,60,rolls,QA Hold Area,On Hold,batch_upload,Aldi Pratama,initial intake
+TXN-0264,2026-03-22 07:47:00,RM-2824,B-94-001,1000,kg,QA Hold Area,Reject,ocr_import,Aldi Pratama,stock update completed
+TXN-0230,2026-03-22 08:46:00,PK-7227,B-55-002,40,boxes,Warehouse 03,Reject,batch_upload,Dewi QA,verified by operator
+TXN-0120,2026-03-22 08:51:00,PK-4733,B-13-006,10,boxes,Inbound Dock,Reject,ocr_import,Anita Dispatch,stock update completed
+TXN-0288,2026-03-22 09:44:00,RM-2824,B-94-001,500,kg,QA Hold Area,Need Review,manual,Aldi Pratama,stock update completed
+TXN-0064,2026-03-22 09:49:00,SP-5315,B-41-001,250,pcs,Maintenance Cage,Ready,ocr_import,Anita Dispatch,stock update completed
+TXN-0037,2026-03-22 09:52:00,PK-3664,B-08-001,40,boxes,Maintenance Cage,Reject,manual,Anita Dispatch,location confirmed
+TXN-0119,2026-03-22 14:54:00,PK-6313,B-13-003,800,pcs,Warehouse 01,Reject,manual,Dewi QA,routine inbound processing
+TXN-0089,2026-03-22 16:36:00,FG-3621,B-65-003,40,boxes,Finished Goods Zone,Unreleased,manual,Sinta QA,batch received and logged
+TXN-0308,2026-03-22 16:45:00,FG-2040,B-66-003,15,sets,Yard A,Ready,ocr_import,Dewi QA,stock update completed
+TXN-0193,2026-03-22 16:46:00,SP-8433,B-17-002,15,units,Warehouse 03,Ready,batch_upload,Dewi QA,awaiting QA release
+TXN-0050,2026-03-22 18:14:00,PK-7572,B-84-001,30,boxes,Inbound Dock,Need Review,ocr_import,Sinta QA,quantity outlier detected
+TXN-0153,2026-03-22 18:25:00,PK-4733,B-61-002,60,boxes,Inbound Dock,Need Review,batch_upload,Rizal Gudang,verified by operator
+TXN-0118,2026-03-22 19:39:00,FG-2040,B-24-005,10,sets,QA Hold Area,Unreleased,manual,Anita Dispatch,batch received and logged
+TXN-0158,2026-03-22 19:43:00,RM-4657,B-22-007,180,rolls,QA Hold Area,Reject,manual,Anita Dispatch,initial intake
+TXN-0243,2026-03-22 21:44:00,PK-0291,B-26-002,800,pcs,Inbound Dock,Ready,manual,Aldi Pratama,location confirmed
+TXN-0041,2026-03-22 21:57:00,FG-2489,B-41-002,430,units,Inbound Dock,Reject,ocr_import,Sinta QA,batch received and logged
+TXN-0032,2026-03-22 22:18:00,PK-7227,B-46-001,10,boxes,Warehouse 03,Ready,ocr_import,Anita Dispatch,stock update completed
+TXN-0127,2026-03-22 23:28:00,RM-2824,B-09-003,850,kg,QA Hold Area,Need Review,manual,Rizal Gudang,initial intake
+TXN-0265,2026-03-23 00:36:00,RM-2584,B-05-003,50,liters,Warehouse 02,Ready,ocr_import,Rizal Gudang,batch received and logged
+TXN-0190,2026-03-23 01:12:00,SP-9797,B-85-005,24,kits,Warehouse 03,Ready,manual,Rina Ops,initial intake
+TXN-0199,2026-03-23 02:54:00,PK-7227,B-46-001,60,boxes,Warehouse 01,Ready,ocr_import,Dewi QA,routine inbound processing
+TXN-0222,2026-03-23 03:39:00,FG-4593,B-70-003,180,units,Dispatch Zone,On Hold,batch_upload,Rizal Gudang,stock update completed
+TXN-0150,2026-03-23 08:21:00,RM-3615,B-09-001,300,sheets,Warehouse 02,Need Review,ocr_import,Rizal Gudang,initial intake
+TXN-0129,2026-03-23 09:57:00,PK-4733,B-13-006,60,boxes,Yard A,Need Review,batch_upload,Dewi QA,routine inbound processing
+TXN-0110,2026-03-23 10:50:00,FG-8019,B-38-006,25,boxes,Yard A,Reject,ocr_import,Dewi QA,location confirmed
+TXN-0179,2026-03-23 10:53:00,RM-3615,B-76-004,80,sheets,Inbound Dock,On Hold,manual,Rizal Gudang,location confirmed
+TXN-0272,2026-03-23 12:27:00,RM-4657,B-61-005,20,rolls,QA Hold Area,Ready,ocr_import,Aldi Pratama,location confirmed
+TXN-0152,2026-03-23 15:41:00,PK-6313,B-57-001,800,pcs,Inbound Dock,Need Review,batch_upload,Sinta QA,initial intake
+TXN-0117,2026-03-23 15:59:00,FG-4593,B-95-002,90,units,Dispatch Zone,Ready,batch_upload,Dewi QA,batch received and logged
+TXN-0073,2026-03-23 16:39:00,RM-4657,B-17-002,180,rolls,QA Hold Area,Reject,manual,Rina Ops,stock update completed
+TXN-0005,2026-03-23 16:52:00,RM-2584,B-09-002,200,liters,Warehouse 02,Reject,batch_upload,Aldi Pratama,stock update completed
+TXN-0043,2026-03-23 17:09:00,RM-4527,B-01-004,500,liters,Warehouse 01,Reject,batch_upload,Rizal Gudang,routine inbound processing
+TXN-0212,2026-03-23 19:52:00,PK-4483,B-97-001,100,packs,Yard A,Need Review,manual,Sinta QA,item moved to non-standard area
+TXN-0311,2026-03-23 21:02:00,FG-9830,B-34-003,30,sets,Dispatch Zone,Unreleased,batch_upload,Sinta QA,location confirmed
+TXN-0034,2026-03-23 21:46:00,SP-9797,B-80-002,16,kits,Yard A,Ready,manual,Aldi Pratama,item moved to non-standard area
+TXN-0278,2026-03-23 21:56:00,SP-8433,B-86-003,180,units,Warehouse 03,Ready,ocr_import,Rina Ops,verified by operator
+TXN-0098,2026-03-23 22:01:00,FG-8019,B-38-006,10,boxes,Inbound Dock,On Hold,ocr_import,Rina Ops,stock update completed
+TXN-0319,2026-03-23 22:07:00,PK-4733,B-25-004,10,boxes,Inbound Dock,Reject,batch_upload,Anita Dispatch,initial intake
+TXN-0122,2026-03-24 00:44:00,PK-4483,B-22-003,20,packs,Warehouse 03,Need Review,ocr_import,Rina Ops,batch received and logged
+TXN-0162,2026-03-24 01:45:00,RM-4811,B-40-002,-5,kg,QA Hold Area,On Hold,batch_upload,Rizal Gudang,quantity outlier detected
+TXN-0047,2026-03-24 02:51:00,PK-3664,B-94-003,10,boxes,,Ready,manual,Sinta QA,location not provided
+TXN-0281,2026-03-24 03:35:00,FG-2040,B-09-006,5,sets,Yard A,Unreleased,ocr_import,Rizal Gudang,awaiting QA release
+TXN-0210,2026-03-24 04:54:00,SP-5315,B-02-004,250,pcs,Maintenance Cage,Ready,ocr_import,Aldi Pratama,location confirmed
+TXN-0216,2026-03-24 06:24:00,SP-2827,B-34-002,4,kits,QA Hold Area,On Hold,manual,Dewi QA,batch received and logged
+TXN-0241,2026-03-24 07:24:00,PK-4483,B-97-001,20,packs,Finished Goods Zone,Reject,batch_upload,Dewi QA,initial intake
+TXN-0186,2026-03-24 07:55:00,FG-4593,B-75-001,40,units,Dispatch Zone,Unreleased,ocr_import,Aldi Pratama,routine inbound processing
+TXN-0310,2026-03-24 08:41:00,RM-4657,B-61-005,180,rolls,QA Hold Area,Need Review,ocr_import,Anita Dispatch,verified by operator
+TXN-0286,2026-03-24 09:36:00,FG-7811,B-42-003,430,units,Finished Goods Zone,Reject,batch_upload,Sinta QA,verified by operator
+TXN-0080,2026-03-24 10:26:00,FG-8019,B-92-002,25,boxes,Yard A,Reject,manual,Rina Ops,stock update completed
+TXN-0207,2026-03-24 11:26:00,RM-0059,B-11-005,120,kg,Yard A,On Hold,ocr_import,Rizal Gudang,item moved to non-standard area
+TXN-0030,2026-03-24 13:06:00,RM-4527,B-76-002,200,liters,Warehouse 01,Ready,batch_upload,Anita Dispatch,quality issue unresolved
+TXN-0314,2026-03-24 13:32:00,SP-2827,B-41-001,4,kits,Warehouse 01,On Hold,ocr_import,Dewi QA,stock update completed
+TXN-0251,2026-03-24 16:04:00,FG-9830,B-55-006,15,sets,Dispatch Zone,Reject,manual,Anita Dispatch,quantity outlier detected
+TXN-0042,2026-03-24 16:05:00,RM-4611,B-32-005,300,sheets,QA Hold Area,On Hold,manual,Sinta QA,verified by operator
+TXN-0012,2026-03-24 16:46:00,FG-2489,B-41-002,40,units,Finished Goods Zone,Reject,ocr_import,Anita Dispatch,location confirmed
+TXN-0198,2026-03-24 20:12:00,PK-3677,B-36-004,40,boxes,Warehouse 03,Reject,ocr_import,Aldi Pratama,initial intake
+TXN-0097,2026-03-24 21:19:00,PK-3664,B-08-001,60,boxes,Warehouse 03,Ready,batch_upload,Rina Ops,initial intake
+TXN-0139,2026-03-24 22:56:00,SP-8433,B-86-003,40,units,Yard A,Ready,ocr_import,Rina Ops,item moved to non-standard area
+TXN-0138,2026-03-24 23:41:00,PK-6313,B-71-002,800,pcs,Packaging Zone,Need Review,batch_upload,,missing operator name
+TXN-0280,2026-03-25 06:17:00,PK-6313,B-71-002,120,pcs,Inbound Dock,Need Review,batch_upload,Rina Ops,routine inbound processing
+TXN-0254,2026-03-25 06:41:00,FG-8668,B-87-001,25,boxes,Yard A,On Hold,ocr_import,Sinta QA,batch received and logged
+TXN-0294,2026-03-25 08:21:00,FG-3621,B-65-003,10,boxes,Finished Goods Zone,Reject,batch_upload,Rizal Gudang,batch received and logged
+TXN-0168,2026-03-25 08:26:00,FG-3621,B-62-002,25,boxes,Yard A,Unreleased,ocr_import,Sinta QA,routine inbound processing
+TXN-0159,2026-03-25 09:14:00,PK-7227,B-94-005,25,boxes,Packaging Zone,Reject,ocr_import,Rizal Gudang,routine inbound processing
+TXN-0130,2026-03-25 09:37:00,FG-8019,B-28-007,60,boxes,Yard A,Ready,batch_upload,Dewi QA,location confirmed
+TXN-0014,2026-03-25 10:41:00,PK-4483,B-97-001,20,packs,Warehouse 03,Ready,manual,Dewi QA,routine inbound processing
+TXN-0008,2026-03-25 12:17:00,FG-9830,B-50-002,15,sets,Dispatch Zone,Unreleased,batch_upload,Sinta QA,initial intake
+TXN-0296,2026-03-25 13:10:00,PK-4483,,20,packs,Maintenance Cage,Need Review,manual,Aldi Pratama,batch id missing from manual entry
+TXN-0287,2026-03-25 13:29:00,PK-7572,B-70-002,60,boxes,Inbound Dock,Ready,manual,Rizal Gudang,verified by operator
+TXN-0035,2026-03-25 15:28:00,RM-4811,B-52-003,1000,kg,Maintenance Cage,On Hold,batch_upload,Aldi Pratama,stock update completed
+TXN-0247,2026-03-25 16:20:00,PK-3664,B-08-001,60,boxes,Warehouse 03,Reject,batch_upload,Aldi Pratama,routine inbound processing
+TXN-0085,2026-03-25 16:45:00,FG-7811,B-63-004,15,units,Yard A,On Hold,manual,Sinta QA,item moved to non-standard area
+TXN-0274,2026-03-25 18:27:00,RM-4811,B-40-002,1000,kg,Inbound Dock,Need Review,manual,Rina Ops,location confirmed
+TXN-0107,2026-03-25 19:28:00,PK-2169,B-32-002,100,packs,Packaging Zone,Ready,manual,Sinta QA,location confirmed
+TXN-0024,2026-03-25 20:37:00,RM-7912,B-68-001,120,kg,Warehouse 01,Reject,ocr_import,Rizal Gudang,location confirmed
+TXN-0293,2026-03-25 20:51:00,PK-4483,B-31-002,20,packs,Dispatch Zone,Reject,batch_upload,Rizal Gudang,routine inbound processing
+TXN-0132,2026-03-25 21:39:00,FG-8019,B-38-006,25,boxes,Yard A,Reject,manual,Rizal Gudang,initial intake
+TXN-0077,2026-03-25 23:18:00,RM-8527,B-36-004,500,kg,Packaging Zone,On Hold,batch_upload,Sinta QA,routine inbound processing
+TXN-0007,2026-03-25 23:31:00,FG-3340,B-28-003,30,sets,Finished Goods Zone,Ready,batch_upload,Aldi Pratama,stock update completed
+TXN-0253,2026-03-25 23:34:00,RM-4811,B-52-003,240,kg,QA Hold Area,Reject,batch_upload,Dewi QA,stock update completed
+TXN-0106,2026-03-25 23:35:00,RM-8527,B-66-002,850,kg,Maintenance Cage,Reject,manual,Rina Ops,location confirmed
+TXN-0096,2026-03-26 00:19:00,FG-7811,B-01-001,180,units,Finished Goods Zone,Unreleased,batch_upload,Rizal Gudang,location confirmed
+TXN-0256,2026-03-26 00:50:00,RM-4611,B-67-002,480,sheets,Warehouse 03,On Hold,ocr_import,Aldi Pratama,quantity outlier detected
+TXN-0102,2026-03-26 00:51:00,PK-6313,B-57-001,250,pcs,Inbound Dock,Reject,batch_upload,Rina Ops,location confirmed
+TXN-0269,2026-03-26 00:54:00,RM-2584,B-30-001,100,liters,Warehouse 02,Need Review,batch_upload,Sinta QA,batch received and logged
+TXN-0223,2026-03-26 05:15:00,RM-4811,B-92-001,1000,kg,QA Hold Area,Need Review,manual,Rina Ops,stock update completed
+TXN-0228,2026-03-26 05:40:00,FG-9830,B-59-004,10,sets,Dispatch Zone,Ready,ocr_import,Anita Dispatch,verified by operator
+TXN-0004,2026-03-26 07:03:00,SP-8433,B-17-002,15,units,Packaging Zone,Need Review,ocr_import,Aldi Pratama,initial intake
+TXN-0239,2026-03-26 07:37:00,RM-8527,B-86-005,120,kg,Finished Goods Zone,Need Review,batch_upload,Rina Ops,location confirmed
+TXN-0060,2026-03-26 08:55:00,RM-4657,B-99-001,20,rolls,QA Hold Area,Need Review,ocr_import,Aldi Pratama,routine inbound processing
+TXN-0187,2026-03-26 10:46:00,RM-2824,B-09-003,1000,kg,Warehouse 01,Reject,batch_upload,Sinta QA,initial intake
+TXN-0220,2026-03-26 11:08:00,SP-1188,B-75-003,120,pcs,Warehouse 03,Ready,manual,Dewi QA,routine inbound processing
+TXN-0094,2026-03-26 13:56:00,PK-4733,B-13-006,60,boxes,Warehouse 01,Ready,ocr_import,,missing operator name
+TXN-0062,2026-03-26 14:11:00,FG-3621,B-65-003,40,boxes,Yard A,On Hold,batch_upload,Rizal Gudang,routine inbound processing
+TXN-0059,2026-03-26 15:25:00,RM-7912,B-78-002,1250,kg,Packaging Zone,Reject,manual,Aldi Pratama,initial intake
+TXN-0066,2026-03-26 16:08:00,SP-2827,B-92-005,24,kits,Yard A,Need Review,ocr_import,Rizal Gudang,item moved to non-standard area
+TXN-0266,2026-03-26 17:44:00,PK-4733,B-25-004,25,boxes,Inbound Dock,Reject,manual,Dewi QA,location confirmed
+TXN-0226,2026-03-26 18:22:00,PK-2169,B-25-003,80,packs,Packaging Zone,Need Review,manual,Sinta QA,batch received and logged
+TXN-0313,2026-03-26 19:28:00,RM-3615,,160,sheets,Warehouse 02,Ready,manual,Rina Ops,batch id missing from manual entry
+TXN-0084,2026-03-26 19:40:00,FG-8019,B-85-001,60,boxes,Warehouse 03,Reject,ocr_import,Rina Ops,initial intake
+TXN-0065,2026-03-26 21:05:00,SP-8433,B-39-005,40,units,Warehouse 03,Ready,ocr_import,Rizal Gudang,stock update completed
+TXN-0070,2026-03-26 22:04:00,SP-2827,B-27-003,-5,kits,Warehouse 01,Need Review,ocr_import,Dewi QA,quantity outlier detected
+TXN-0156,2026-03-26 23:06:00,FG-3621,B-65-003,25,boxes,Yard A,Reject,ocr_import,Dewi QA,batch received and logged
+TXN-0312,2026-03-26 23:58:00,RM-4657,B-61-005,-5,rolls,QA Hold Area,Ready,ocr_import,Sinta QA,quantity outlier detected
+TXN-0258,2026-03-27 00:39:00,RM-4611,B-16-004,80,sheets,QA Hold Area,Ready,manual,Rina Ops,routine inbound processing
+TXN-0125,2026-03-27 01:07:00,RM-1842,B-39-002,40,rolls,Warehouse 02,On Hold,manual,Dewi QA,routine inbound processing
+TXN-0165,2026-03-27 02:26:00,RM-7912,B-70-005,240,kg,Warehouse 01,On Hold,batch_upload,Aldi Pratama,verified by operator
+TXN-0227,2026-03-27 03:10:00,SP-5315,B-97-002,800,pcs,Maintenance Cage,On Hold,manual,Rizal Gudang,batch received and logged
+TXN-0191,2026-03-27 09:40:00,FG-3340,B-28-003,10,sets,Finished Goods Zone,Reject,manual,Sinta QA,verified by operator
+TXN-0023,2026-03-27 09:52:00,PK-3677,B-18-001,60,boxes,Warehouse 03,Need Review,ocr_import,Anita Dispatch,routine inbound processing
+TXN-0257,2026-03-27 10:45:00,FG-8668,B-52-003,60,boxes,Yard A,On Hold,manual,Rizal Gudang,stock update completed
+TXN-0232,2026-03-27 12:47:00,RM-2824,B-09-003,1250,kg,QA Hold Area,Ready,batch_upload,Sinta QA,stock update completed
+TXN-0046,2026-03-27 12:56:00,RM-2584,B-05-003,100,liters,Dispatch Zone,Ready,ocr_import,Aldi Pratama,batch received and logged
+TXN-0206,2026-03-27 13:16:00,RM-4611,B-67-002,120,sheets,Packaging Zone,Reject,manual,Anita Dispatch,manual upload might duplicate earlier record
+TXN-0044,2026-03-27 13:46:00,PK-6313,B-13-003,120,pcs,Inbound Dock,Need Review,batch_upload,Anita Dispatch,routine inbound processing
+TXN-0133,2026-03-27 14:09:00,RM-1842,B-82-003,40,rolls,Warehouse 02,Reject,manual,Sinta QA,batch received and logged
+TXN-0317,2026-03-27 16:26:00,RM-1842,B-81-001,180,rolls,Warehouse 02,Ready,ocr_import,Rizal Gudang,manual upload might duplicate earlier record
+TXN-0068,2026-03-27 17:09:00,FG-7811,B-47-007,40,units,Maintenance Cage,Ready,manual,Rina Ops,location confirmed
+TXN-0151,2026-03-27 17:10:00,PK-4483,B-31-002,40,packs,Warehouse 03,Need Review,batch_upload,Aldi Pratama,location confirmed
+TXN-0318,2026-03-27 17:13:00,RM-1842,B-81-001,120,rolls,Warehouse 02,Reject,ocr_import,Aldi Pratama,stock update completed
+TXN-0155,2026-03-27 17:58:00,RM-4611,B-16-004,120,sheets,QA Hold Area,Need Review,batch_upload,Aldi Pratama,location confirmed
+TXN-0011,2026-03-27 20:19:00,FG-3621,B-65-003,40,boxes,Yard A,Ready,ocr_import,Sinta QA,batch received and logged
+TXN-0259,2026-03-27 20:31:00,PK-2169,B-25-004,20,packs,Inbound Dock,Ready,manual,Sinta QA,batch received and logged
+TXN-0245,2026-03-28 00:45:00,RM-2584,B-05-003,100,liters,Warehouse 02,Ready,batch_upload,Anita Dispatch,routine inbound processing
+TXN-0092,2026-03-28 01:09:00,RM-3615,B-44-002,160,sheets,Warehouse 02,Need Review,batch_upload,Rizal Gudang,initial intake
+TXN-0250,2026-03-28 02:25:00,FG-2040,B-66-003,5,sets,Warehouse 03,On Hold,ocr_import,,missing operator name
+TXN-0268,2026-03-28 03:47:00,PK-4733,B-61-002,30,boxes,Inbound Dock,Reject,ocr_import,Rina Ops,quantity outlier detected
+TXN-0105,2026-03-28 04:37:00,PK-3677,B-36-004,10,boxes,Warehouse 03,Ready,ocr_import,Rizal Gudang,inspection pending
+TXN-0161,2026-03-28 06:13:00,SP-1188,B-32-002,250,pcs,Warehouse 03,Need Review,batch_upload,Aldi Pratama,initial intake
+TXN-0029,2026-03-28 08:08:00,FG-2489,B-08-003,15,units,Finished Goods Zone,On Hold,batch_upload,Rina Ops,batch received and logged
+TXN-0143,2026-03-28 09:34:00,RM-4611,B-58-003,120,sheets,Warehouse 02,Reject,batch_upload,Dewi QA,batch received and logged
+TXN-0176,2026-03-28 12:50:00,FG-8668,B-31-002,40,boxes,Yard A,Unreleased,manual,Dewi QA,batch received and logged
+TXN-0057,2026-03-28 14:04:00,FG-4593,B-75-001,90,units,Finished Goods Zone,On Hold,manual,Dewi QA,stock update completed
+TXN-0306,2026-03-28 14:20:00,SP-2827,B-41-006,8,kits,Warehouse 01,Need Review,batch_upload,Rina Ops,initial intake
+TXN-0249,2026-03-28 14:26:00,PK-3664,B-08-001,60,boxes,Dispatch Zone,Need Review,ocr_import,Rizal Gudang,batch received and logged
+TXN-0300,2026-03-28 15:22:00,SP-2827,B-31-007,8,kits,Warehouse 01,Need Review,manual,Rizal Gudang,location confirmed
+TXN-0188,2026-03-28 16:48:00,PK-3664,B-08-001,10,boxes,Warehouse 03,Ready,ocr_import,Anita Dispatch,stock update completed
+TXN-0157,2026-03-28 21:53:00,PK-3664,B-08-001,60,boxes,Yard A,Reject,batch_upload,Rizal Gudang,item moved to non-standard area
+TXN-0209,2026-03-28 22:49:00,PK-4483,B-31-002,40,packs,Warehouse 03,Ready,batch_upload,Rizal Gudang,stock update completed
+TXN-0021,2026-03-28 23:03:00,FG-4593,B-95-002,15,units,Yard A,On Hold,manual,Dewi QA,manual upload might duplicate earlier record
+TXN-0113,2026-03-28 23:38:00,FG-7811,B-77-002,15,units,QA Hold Area,Ready,ocr_import,Anita Dispatch,stock update completed
+TXN-0095,2026-03-29 01:05:00,RM-4811,B-92-001,850,kg,QA Hold Area,Need Review,batch_upload,Sinta QA,initial intake
+TXN-0189,2026-03-29 01:09:00,PK-4733,B-61-002,60,boxes,Inbound Dock,Ready,ocr_import,Anita Dispatch,stock update completed
+TXN-0010,2026-03-29 02:22:00,FG-2489,B-08-003,15,units,Finished Goods Zone,Ready,ocr_import,Dewi QA,location confirmed
+TXN-0262,2026-03-29 02:44:00,FG-8668,B-31-002,-5,boxes,Yard A,On Hold,manual,Rizal Gudang,quantity outlier detected
+TXN-0182,2026-03-29 02:44:00,RM-1842,B-81-001,60,rolls,Warehouse 02,Ready,ocr_import,Aldi Pratama,verified by operator
+TXN-0217,2026-03-29 03:57:00,FG-3340,B-08-005,30,sets,Finished Goods Zone,On Hold,batch_upload,Rizal Gudang,initial intake
+TXN-0195,2026-03-29 06:36:00,FG-8019,B-38-006,25,boxes,Finished Goods Zone,Unreleased,batch_upload,Sinta QA,quality issue unresolved
+TXN-0072,2026-03-29 08:08:00,RM-2584,B-09-002,50,liters,QA Hold Area,Reject,manual,Aldi Pratama,location confirmed
+TXN-0128,2026-03-29 08:14:00,SP-8433,B-86-003,90,units,QA Hold Area,Ready,manual,Dewi QA,batch received and logged
+TXN-0197,2026-03-29 08:24:00,FG-7811,B-03-005,15,units,Finished Goods Zone,On Hold,batch_upload,Rina Ops,manual upload might duplicate earlier record
+TXN-0053,2026-03-29 09:02:00,RM-4657,B-22-007,60,rolls,Finished Goods Zone,Ready,batch_upload,Aldi Pratama,location confirmed
+TXN-0146,2026-03-29 09:31:00,FG-7811,B-01-001,430,units,Finished Goods Zone,Unreleased,ocr_import,Dewi QA,verified by operator
+TXN-0302,2026-03-29 09:34:00,RM-4527,B-30-001,500,liters,Yard A,Ready,manual,Sinta QA,item moved to non-standard area
+TXN-0289,2026-03-29 10:48:00,SP-8433,B-39-005,-5,units,Warehouse 03,Reject,ocr_import,Rizal Gudang,quantity outlier detected
+TXN-0006,2026-03-29 13:56:00,FG-8668,B-52-003,10,boxes,QA Hold Area,Unreleased,manual,Dewi QA,stock update completed
+TXN-0284,2026-03-29 15:10:00,SP-8433,B-86-003,15,units,Warehouse 03,Ready,ocr_import,Rizal Gudang,location confirmed
+TXN-0215,2026-03-29 20:37:00,PK-0291,B-98-005,800,pcs,,Need Review,ocr_import,Rina Ops,location not provided
+TXN-0131,2026-03-29 20:57:00,PK-3664,B-94-003,10,boxes,Warehouse 01,Ready,manual,Aldi Pratama,location confirmed
+TXN-0178,2026-03-29 22:38:00,FG-8668,B-52-003,10,boxes,Yard A,Ready,manual,Dewi QA,batch received and logged
+TXN-0285,2026-03-30 00:41:00,SP-5315,B-80-006,1250,pcs,Maintenance Cage,Reject,ocr_import,Dewi QA,verified by operator
+TXN-0063,2026-03-30 02:52:00,PK-3664,B-52-002,60,boxes,Yard A,Need Review,batch_upload,Dewi QA,batch received and logged
+TXN-0108,2026-03-30 03:20:00,RM-1842,B-81-001,120,rolls,Finished Goods Zone,Need Review,batch_upload,Aldi Pratama,initial intake
+TXN-0271,2026-03-30 06:10:00,RM-2824,B-63-002,850,kg,Inbound Dock,Reject,batch_upload,Dewi QA,verified by operator
+TXN-0185,2026-03-30 06:55:00,FG-7811,B-15-006,180,units,QA Hold Area,Ready,manual,Aldi Pratama,initial intake
+TXN-0036,2026-03-30 07:50:00,RM-3615,B-09-001,160,sheets,Warehouse 02,Reject,ocr_import,Dewi QA,manual upload might duplicate earlier record
+TXN-0169,2026-03-30 09:02:00,SP-8433,B-39-005,40,units,Warehouse 03,Need Review,manual,Anita Dispatch,manual upload might duplicate earlier record
+TXN-0040,2026-03-30 09:24:00,RM-6925,B-28-001,120,rolls,QA Hold Area,On Hold,batch_upload,Dewi QA,initial intake
+TXN-0180,2026-03-30 09:36:00,RM-2824,B-94-001,1000,kg,QA Hold Area,Ready,manual,Aldi Pratama,batch received and logged
+TXN-0316,2026-03-30 09:54:00,FG-3621,B-75-001,10,boxes,Warehouse 01,Unreleased,batch_upload,Anita Dispatch,location confirmed
+TXN-0304,2026-03-30 12:05:00,PK-6313,B-57-001,120,pcs,Inbound Dock,Need Review,batch_upload,Anita Dispatch,stock update completed
+TXN-0028,2026-03-30 12:45:00,RM-4527,B-81-007,100,liters,Warehouse 01,Reject,manual,Dewi QA,verified by operator
+TXN-0082,2026-03-30 13:10:00,RM-4611,B-67-002,160,sheets,QA Hold Area,Reject,batch_upload,Rina Ops,batch received and logged
+TXN-0076,2026-03-30 13:36:00,PK-4733,B-13-005,25,boxes,Inbound Dock,Need Review,ocr_import,Dewi QA,initial intake
+TXN-0148,2026-03-30 14:03:00,RM-4657,B-85-004,180,rolls,QA Hold Area,Need Review,batch_upload,Rina Ops,batch received and logged
+TXN-0270,2026-03-30 14:06:00,FG-4593,B-95-002,40,units,Dispatch Zone,On Hold,ocr_import,Rizal Gudang,location confirmed
+TXN-0196,2026-03-30 14:48:00,FG-3621,B-62-002,40,boxes,Yard A,Ready,manual,Rina Ops,batch received and logged
+TXN-0298,2026-03-30 17:41:00,RM-2824,B-94-001,120,kg,QA Hold Area,Need Review,batch_upload,Anita Dispatch,initial intake
+TXN-0061,2026-03-30 18:09:00,RM-4527,B-91-006,50,liters,Warehouse 01,Need Review,batch_upload,Dewi QA,routine inbound processing
+TXN-0225,2026-03-30 18:40:00,FG-8668,B-31-002,60,boxes,Yard A,On Hold,ocr_import,Rizal Gudang,location confirmed
+TXN-0135,2026-03-30 20:52:00,RM-6925,B-28-001,40,rolls,QA Hold Area,Need Review,ocr_import,Rizal Gudang,routine inbound processing
+TXN-0315,2026-03-30 21:14:00,FG-8668,B-52-003,40,boxes,Yard A,On Hold,manual,Aldi Pratama,item moved to non-standard area
+TXN-0074,2026-03-30 21:22:00,RM-7912,B-70-005,240,kg,Dispatch Zone,Reject,ocr_import,Sinta QA,routine inbound processing
+TXN-0055,2026-03-30 21:33:00,FG-4593,,15,units,Dispatch Zone,Reject,manual,Rina Ops,batch id missing from manual entry
+TXN-0099,2026-03-30 23:15:00,SP-1188,B-75-003,800,pcs,Warehouse 03,Ready,manual,Sinta QA,batch received and logged
+TXN-0213,2026-03-31 01:11:00,FG-8668,B-31-002,60,boxes,Warehouse 03,Ready,ocr_import,Rizal Gudang,manual upload might duplicate earlier record
+TXN-0183,2026-03-31 01:14:00,SP-9797,B-73-007,8,kits,Warehouse 03,Ready,manual,Sinta QA,initial intake
+TXN-0202,2026-03-31 01:36:00,SP-2827,B-92-005,8,kits,Warehouse 01,On Hold,manual,Aldi Pratama,batch received and logged
+TXN-0231,2026-03-31 01:53:00,PK-3664,B-08-001,40,boxes,Warehouse 03,Reject,batch_upload,Rizal Gudang,routine inbound processing
+TXN-0283,2026-03-31 07:18:00,FG-8019,B-28-007,40,boxes,Finished Goods Zone,Ready,batch_upload,Rina Ops,routine inbound processing
+TXN-0167,2026-03-31 08:39:00,FG-8019,B-92-002,60,boxes,Yard A,Reject,ocr_import,Rizal Gudang,routine inbound processing
+TXN-0027,2026-03-31 10:16:00,FG-2489,B-96-001,-5,units,Finished Goods Zone,On Hold,batch_upload,Sinta QA,quantity outlier detected
+TXN-0116,2026-03-31 11:03:00,FG-7811,B-42-003,430,units,Finished Goods Zone,On Hold,batch_upload,Aldi Pratama,batch received and logged
+TXN-0233,2026-03-31 11:22:00,RM-1842,B-81-001,120,rolls,Warehouse 02,Ready,ocr_import,Dewi QA,awaiting QA release
+TXN-0297,2026-03-31 12:02:00,PK-4733,B-61-002,25,boxes,Packaging Zone,Need Review,batch_upload,Rina Ops,initial intake
+TXN-0038,2026-03-31 12:32:00,FG-7811,B-01-001,15,units,Finished Goods Zone,Reject,batch_upload,Sinta QA,stock update completed
+TXN-0192,2026-03-31 13:26:00,SP-5315,B-97-002,800,pcs,Packaging Zone,On Hold,manual,Aldi Pratama,initial intake
+TXN-0160,2026-03-31 17:19:00,RM-0059,B-08-002,500,kg,Warehouse 01,Ready,batch_upload,Aldi Pratama,routine inbound processing
+TXN-0083,2026-03-31 18:39:00,SP-5315,B-59-005,120,pcs,Maintenance Cage,On Hold,manual,Rizal Gudang,verified by operator
+TXN-0003,2026-03-31 20:01:00,PK-0291,B-48-004,800,pcs,Inbound Dock,Ready,manual,Anita Dispatch,verified by operator
+TXN-0229,2026-03-31 21:03:00,RM-4527,B-29-003,500,liters,Packaging Zone,On Hold,batch_upload,Aldi Pratama,stock update completed
+TXN-0123,2026-04-01 01:24:00,RM-4527,B-29-003,500,liters,Warehouse 01,Ready,manual,Rina Ops,verified by operator
+TXN-0173,2026-04-01 01:35:00,SP-8433,B-86-003,90,units,Warehouse 03,Reject,batch_upload,Dewi QA,location confirmed
+TXN-0277,2026-04-01 02:00:00,SP-5315,B-02-004,1250,pcs,Maintenance Cage,Reject,batch_upload,Dewi QA,manual upload might duplicate earlier record
+TXN-0276,2026-04-01 04:44:00,FG-3340,B-22-006,30,sets,Warehouse 03,Unreleased,batch_upload,Anita Dispatch,verified by operator
+TXN-0033,2026-04-01 05:23:00,SP-9797,B-54-004,16,kits,Warehouse 03,Need Review,batch_upload,Rizal Gudang,verified by operator
+TXN-0045,2026-04-01 07:14:00,SP-9797,B-54-004,8,kits,Warehouse 03,On Hold,batch_upload,Anita Dispatch,initial intake
+TXN-0081,2026-04-01 07:33:00,RM-3615,B-09-001,120,sheets,Yard A,On Hold,ocr_import,Dewi QA,item moved to non-standard area
+TXN-0164,2026-04-01 08:12:00,FG-3621,B-65-003,10,boxes,Yard A,Reject,ocr_import,Dewi QA,verified by operator
+TXN-0145,2026-04-01 08:26:00,SP-9797,B-06-001,4,kits,Warehouse 03,Need Review,batch_upload,Aldi Pratama,batch received and logged
+TXN-9001,2026-04-01 09:12:00,RM-1842,B-01-001,120,rolls,Warehouse 02,Ready,manual,Aldi Pratama,inspection pending
+TXN-9002,2026-04-01 09:17:00,PK-0291,B-02-001,1250,pcs,Inbound Dock,Need Review,batch_upload,Rina Ops,manual upload might duplicate earlier record
+TXN-9003,2026-04-01 09:28:00,FG-7811,B-03-001,430,units,Yard A,Unreleased,manual,Anita Dispatch,moved before release confirmation
+TXN-0282,2026-04-01 10:13:00,FG-2040,B-24-005,5,sets,Warehouse 02,Reject,ocr_import,Rina Ops,batch received and logged
+TXN-0020,2026-04-01 11:42:00,PK-3664,B-08-001,10,boxes,Yard A,Reject,ocr_import,Aldi Pratama,item moved to non-standard area
+TXN-0136,2026-04-01 12:31:00,RM-4811,B-40-002,1000,kg,QA Hold Area,Need Review,ocr_import,Rizal Gudang,initial intake
+TXN-0126,2026-04-01 13:33:00,SP-8433,B-17-002,430,units,,Ready,ocr_import,Dewi QA,location not provided
+TXN-0091,2026-04-01 16:34:00,RM-2584,B-09-002,50,liters,Warehouse 02,On Hold,batch_upload,Sinta QA,batch received and logged
+TXN-0273,2026-04-01 16:48:00,RM-0059,B-11-005,240,kg,Warehouse 01,On Hold,batch_upload,Dewi QA,location confirmed
+TXN-0201,2026-04-01 16:54:00,RM-4611,B-57-001,160,sheets,Finished Goods Zone,Need Review,ocr_import,Dewi QA,manual upload might duplicate earlier record
+TXN-0267,2026-04-01 18:02:00,PK-3664,B-52-002,40,boxes,,Need Review,ocr_import,Anita Dispatch,location not provided
+TXN-0115,2026-04-01 18:20:00,PK-6313,B-71-002,250,pcs,Yard A,Reject,ocr_import,Anita Dispatch,item moved to non-standard area
+TXN-0016,2026-04-01 19:12:00,FG-2489,B-41-002,90,units,Dispatch Zone,Reject,batch_upload,Rina Ops,location confirmed
+TXN-0299,2026-04-01 19:35:00,FG-2040,B-66-003,15,sets,Yard A,Reject,ocr_import,Sinta QA,stock update completed
+TXN-0039,2026-04-01 20:25:00,RM-8527,B-10-001,120,kg,Warehouse 02,Reject,batch_upload,Sinta QA,routine inbound processing
+TXN-0140,2026-04-01 20:43:00,RM-4657,B-71-006,120,rolls,,Reject,batch_upload,Anita Dispatch,location not provided
+TXN-0181,2026-04-01 22:13:00,RM-7912,B-70-005,1250,kg,Warehouse 01,Reject,ocr_import,Aldi Pratama,verified by operator
+TXN-0295,2026-04-01 22:51:00,FG-9830,B-50-002,15,sets,Dispatch Zone,On Hold,manual,Rizal Gudang,stock update completed
+TXN-0002,2026-04-01 22:53:00,PK-3677,B-24-003,10,boxes,Warehouse 02,Ready,batch_upload,Aldi Pratama,batch received and logged
+TXN-0301,2026-04-01 23:17:00,FG-3621,B-62-002,-5,boxes,QA Hold Area,Unreleased,ocr_import,Rina Ops,quantity outlier detected
+TXN-0248,2026-04-02 00:16:00,PK-4483,B-22-003,80,packs,Warehouse 03,Ready,ocr_import,Rizal Gudang,location confirmed
+TXN-0320,2026-04-02 00:56:00,RM-8527,B-31-003,850,kg,Dispatch Zone,On Hold,manual,Anita Dispatch,verified by operator
+TXN-0292,2026-04-02 01:05:00,RM-8527,B-10-001,500,kg,Warehouse 02,Reject,manual,Rizal Gudang,location confirmed
+TXN-0137,2026-04-02 01:12:00,FG-2040,B-08-002,10,sets,Yard A,On Hold,batch_upload,Aldi Pratama,stock update completed
+TXN-0261,2026-04-02 02:33:00,FG-9830,B-55-006,10,sets,Dispatch Zone,On Hold,batch_upload,Rina Ops,initial intake
+TXN-0255,2026-04-02 03:04:00,RM-4527,B-01-004,200,liters,Warehouse 01,Ready,ocr_import,Anita Dispatch,inspection pending
+TXN-0001,2026-04-02 03:28:00,SP-8433,B-51-001,40,units,Warehouse 03,On Hold,ocr_import,Sinta QA,verified by operator
+TXN-0214,2026-04-02 04:09:00,FG-8668,B-87-001,40,boxes,Yard A,Ready,manual,Anita Dispatch,location confirmed
+TXN-0071,2026-04-02 09:09:00,SP-1188,B-32-002,50,pcs,Yard A,Reject,manual,Dewi QA,manual upload might duplicate earlier record
+TXN-0240,2026-04-02 09:33:00,SP-2827,B-41-006,4,kits,Warehouse 01,Ready,ocr_import,Aldi Pratama,verified by operator
+TXN-0166,2026-04-02 09:55:00,PK-3677,B-36-004,25,boxes,Yard A,Need Review,ocr_import,Rizal Gudang,item moved to non-standard area
+TXN-0203,2026-04-02 10:24:00,RM-7912,B-28-004,1000,kg,Warehouse 01,On Hold,manual,Rina Ops,verified by operator
+TXN-0252,2026-04-02 11:58:00,FG-4593,B-75-001,430,units,Inbound Dock,Ready,batch_upload,Anita Dispatch,location confirmed
+TXN-0013,2026-04-02 12:44:00,PK-2169,B-69-005,40,packs,,Need Review,batch_upload,Dewi QA,location not provided
+TXN-0103,2026-04-02 13:06:00,RM-6925,B-70-002,20,rolls,QA Hold Area,Reject,ocr_import,Aldi Pratama,initial intake
+TXN-0194,2026-04-02 13:10:00,PK-4733,B-32-001,10,boxes,Inbound Dock,Reject,batch_upload,Aldi Pratama,routine inbound processing
+TXN-0124,2026-04-02 14:06:00,PK-7227,B-07-006,25,boxes,Warehouse 03,Need Review,ocr_import,Sinta QA,initial intake
+TXN-0018,2026-04-02 14:59:00,FG-8019,B-38-006,40,boxes,Yard A,Reject,batch_upload,Aldi Pratama,verified by operator
+TXN-0054,2026-04-02 15:14:00,SP-8433,B-83-004,180,units,Finished Goods Zone,Ready,ocr_import,Rina Ops,initial intake
+TXN-0056,2026-04-02 16:45:00,FG-3621,B-65-003,60,boxes,Yard A,Ready,batch_upload,Rizal Gudang,verified by operator
+TXN-0170,2026-04-02 17:05:00,PK-2169,B-25-003,40,packs,Maintenance Cage,Reject,batch_upload,Rina Ops,stock update completed
+TXN-0236,2026-04-02 18:03:00,RM-3615,B-44-002,160,sheets,Warehouse 02,Ready,batch_upload,Anita Dispatch,location confirmed
+TXN-0075,2026-04-02 18:59:00,PK-7572,B-84-001,60,boxes,Inbound Dock,Ready,batch_upload,Dewi QA,manual upload might duplicate earlier record
+TXN-0163,2026-04-02 19:25:00,PK-3664,,40,boxes,Warehouse 03,Reject,manual,Rina Ops,batch id missing from manual entry
+TXN-0111,2026-04-02 20:15:00,FG-3621,B-62-002,40,boxes,Yard A,Reject,ocr_import,Rizal Gudang,routine inbound processing
+TXN-0154,2026-04-02 20:37:00,RM-8527,B-66-002,240,kg,Warehouse 02,On Hold,batch_upload,Sinta QA,routine inbound processing
+TXN-0079,2026-04-02 20:58:00,PK-4483,B-22-003,80,packs,Warehouse 03,Reject,batch_upload,Anita Dispatch,stock update completed
+TXN-0171,2026-04-02 21:57:00,RM-4811,B-40-002,500,kg,QA Hold Area,Reject,batch_upload,Rizal Gudang,location confirmed
+TXN-0058,2026-04-02 22:07:00,FG-2489,B-96-001,430,units,Finished Goods Zone,On Hold,manual,Rina Ops,stock update completed
+TXN-0019,2026-04-03 01:27:00,RM-8527,B-66-002,120,kg,Warehouse 02,Reject,batch_upload,Dewi QA,routine inbound processing
+TXN-0238,2026-04-03 02:45:00,SP-2827,B-41-006,24,kits,Warehouse 01,Ready,ocr_import,Anita Dispatch,initial intake
+TXN-0051,2026-04-03 03:32:00,SP-9797,B-73-007,8,kits,Warehouse 03,On Hold,ocr_import,Sinta QA,batch received and logged
+TXN-0211,2026-04-03 03:40:00,FG-8019,B-20-004,25,boxes,Yard A,Ready,batch_upload,Rina Ops,routine inbound processing
+TXN-0048,2026-04-03 04:51:00,FG-7811,B-47-007,40,units,Finished Goods Zone,Unreleased,batch_upload,Rizal Gudang,manual upload might duplicate earlier record
+TXN-0109,2026-04-03 05:42:00,PK-7572,B-84-001,40,boxes,Inbound Dock,Ready,batch_upload,Sinta QA,location confirmed
+TXN-0244,2026-04-03 05:52:00,RM-1842,B-81-001,120,rolls,Inbound Dock,Need Review,batch_upload,Aldi Pratama,routine inbound processing
+TXN-0246,2026-04-03 06:43:00,FG-7811,B-01-001,180,units,Yard A,Unreleased,ocr_import,Dewi QA,item moved to non-standard area
+TXN-0290,2026-04-03 07:58:00,RM-2824,B-94-001,120,kg,QA Hold Area,Reject,manual,Anita Dispatch,stock update completed

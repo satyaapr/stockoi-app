@@ -1,0 +1,217 @@
+log_id,timestamp,item_code,batch_id,previous_status,new_status,changed_by,reason,approved_by
+LOG-0009,2026-03-04 01:28:00,FG-3340,B-28-003,Unreleased,On Hold,Budi Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Sinta QA
+LOG-0091,2026-03-04 01:30:00,RM-4527,B-01-004,Need Review,On Hold,Sinta QA,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0008,2026-03-04 04:56:00,PK-7572,B-70-002,Need Review,On Hold,Budi Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Sinta QA
+LOG-0013,2026-03-05 03:05:00,PK-2169,B-69-005,Ready,On Hold,Sinta QA,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0070,2026-03-05 05:20:00,FG-2489,B-41-002,Ready,On Hold,Sinta QA,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Maya Supervisor
+LOG-0064,2026-03-05 09:58:00,RM-2824,B-09-003,Need Review,On Hold,Sinta QA,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Sinta QA
+LOG-0132,2026-03-06 06:44:00,RM-4611,B-16-004,Ready,On Hold,Maya Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0147,2026-03-06 09:54:00,FG-4593,B-70-003,Ready,On Hold,Sinta QA,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0135,2026-03-07 05:45:00,RM-4811,B-40-002,On Hold,On Hold,System AI,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Maya Supervisor
+LOG-0150,2026-03-07 06:47:00,PK-4483,B-31-002,Ready,On Hold,Budi Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Sinta QA
+LOG-0036,2026-03-07 07:11:00,PK-4733,B-53-003,Ready,On Hold,System AI,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0161,2026-03-08 03:03:00,FG-4593,B-95-002,Unreleased,On Hold,Budi Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0157,2026-03-09 05:18:00,PK-3664,B-52-002,Ready,On Hold,System AI,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,
+LOG-0096,2026-03-12 01:04:00,FG-8668,B-52-003,Ready,On Hold,Rina Ops,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Sinta QA
+LOG-0049,2026-03-12 05:29:00,RM-2584,B-30-001,Reject,On Hold,System AI,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Maya Supervisor
+LOG-0216,2026-03-18 09:29:00,RM-0059,B-04-001,Ready,On Hold,Budi Supervisor,The item has remained On Hold beyond the expected threshold and requires supervisor follow-up.,Budi Supervisor
+LOG-0047,2026-03-20 11:42:00,RM-0059,B-08-002,On Hold,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0060,2026-03-20 11:47:00,PK-2169,B-14-001,Ready,Ready,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0139,2026-03-20 14:36:00,FG-8668,B-31-002,Reject,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0097,2026-03-20 14:54:00,PK-0291,B-78-001,Ready,Need Review,Maya Supervisor,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Maya Supervisor
+LOG-0156,2026-03-20 17:57:00,RM-2584,B-05-003,Need Review,On Hold,Anita Dispatch,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0158,2026-03-20 20:12:00,PK-7227,B-46-001,Reject,Need Review,Maya Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Maya Supervisor
+LOG-0012,2026-03-20 20:26:00,FG-2489,B-08-003,On Hold,Unreleased,Anita Dispatch,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0187,2026-03-20 21:50:00,FG-4593,B-75-001,Ready,On Hold,Sinta QA,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,
+LOG-0004,2026-03-21 00:23:00,SP-5315,B-41-001,Reject,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0098,2026-03-21 03:00:00,FG-8668,B-87-001,Ready,Reject,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0081,2026-03-21 04:53:00,RM-2824,B-94-001,On Hold,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0148,2026-03-21 11:35:00,RM-3615,B-76-004,Ready,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0116,2026-03-21 12:20:00,FG-8019,B-85-001,Reject,On Hold,Sinta QA,The submitted quantity deviates from expected patterns and should be verified by the operator.,
+LOG-0017,2026-03-21 13:54:00,PK-4483,B-22-003,Need Review,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0114,2026-03-21 16:33:00,FG-2040,B-66-003,Reject,On Hold,Rina Ops,The submitted quantity deviates from expected patterns and should be verified by the operator.,Sinta QA
+LOG-0136,2026-03-21 16:53:00,SP-8433,B-51-001,Ready,On Hold,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0184,2026-03-21 19:44:00,RM-6925,B-17-003,Need Review,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0061,2026-03-21 19:45:00,FG-3621,B-75-001,Reject,On Hold,Rizal Gudang,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0115,2026-03-21 20:26:00,SP-1188,B-75-003,Reject,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0173,2026-03-21 20:45:00,RM-2584,B-30-001,Ready,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0062,2026-03-21 21:07:00,RM-6925,B-74-005,Reject,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0054,2026-03-21 21:30:00,RM-0059,B-31-003,Reject,On Hold,Budi Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Budi Supervisor
+LOG-0195,2026-03-21 22:22:00,SP-8433,B-51-001,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0171,2026-03-22 00:27:00,RM-2824,B-09-003,Need Review,On Hold,System AI,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Sinta QA
+LOG-0121,2026-03-22 06:23:00,RM-4657,B-71-006,On Hold,On Hold,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0100,2026-03-22 06:27:00,RM-0059,B-31-003,Ready,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0174,2026-03-22 08:29:00,RM-2824,B-94-001,Need Review,Reject,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0080,2026-03-22 09:56:00,PK-4733,B-13-006,Ready,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0023,2026-03-22 10:29:00,PK-3664,B-08-001,Need Review,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0152,2026-03-22 10:38:00,PK-7227,B-55-002,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0044,2026-03-22 11:42:00,SP-5315,B-41-001,Reject,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0126,2026-03-22 17:35:00,SP-8433,B-17-002,Ready,On Hold,Budi Supervisor,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,
+LOG-0203,2026-03-22 18:34:00,FG-2040,B-66-003,Reject,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0105,2026-03-22 19:46:00,RM-4657,B-22-007,Reject,Reject,Anita Dispatch,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0034,2026-03-22 20:11:00,PK-7572,B-84-001,Need Review,Need Review,Sinta QA,The submitted quantity deviates from expected patterns and should be verified by the operator.,Budi Supervisor
+LOG-0026,2026-03-22 23:09:00,FG-2489,B-41-002,Reject,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0018,2026-03-22 23:57:00,PK-7227,B-46-001,Ready,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0086,2026-03-23 00:29:00,RM-2824,B-09-003,Need Review,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0175,2026-03-23 02:18:00,RM-2584,B-05-003,Reject,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0131,2026-03-23 04:52:00,PK-7227,B-46-001,Reject,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0088,2026-03-23 11:07:00,PK-4733,B-13-006,Reject,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0075,2026-03-23 11:42:00,FG-8019,B-38-006,On Hold,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0117,2026-03-23 12:30:00,RM-3615,B-76-004,Need Review,On Hold,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0181,2026-03-23 12:33:00,RM-4657,B-61-005,Need Review,Ready,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0102,2026-03-23 17:01:00,PK-6313,B-57-001,Ready,Need Review,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0079,2026-03-23 17:12:00,FG-4593,B-95-002,Unreleased,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0028,2026-03-23 18:50:00,RM-4527,B-01-004,On Hold,Reject,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0142,2026-03-23 20:08:00,PK-4483,B-97-001,Ready,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0211,2026-03-23 23:11:00,PK-4733,B-25-004,Reject,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0068,2026-03-23 23:13:00,FG-8019,B-38-006,Unreleased,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0186,2026-03-23 23:13:00,SP-8433,B-86-003,Need Review,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0020,2026-03-23 23:38:00,SP-9797,B-80-002,Reject,Need Review,Budi Supervisor,The item appears in a location that is not aligned with its category or current status.,
+LOG-0082,2026-03-24 02:04:00,PK-4483,B-22-003,Reject,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0032,2026-03-24 03:14:00,PK-3664,B-94-003,Need Review,Need Review,System AI,The record is incomplete and cannot be safely approved without filling the missing fields.,
+LOG-0107,2026-03-24 03:40:00,RM-4811,B-40-002,On Hold,Need Review,System AI,The submitted quantity deviates from expected patterns and should be verified by the operator.,Sinta QA
+LOG-0189,2026-03-24 03:59:00,FG-2040,B-09-006,Unreleased,On Hold,Budi Supervisor,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,
+LOG-0145,2026-03-24 08:22:00,SP-2827,B-34-002,On Hold,On Hold,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0204,2026-03-24 09:29:00,RM-4657,B-61-005,On Hold,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0138,2026-03-24 11:39:00,RM-0059,B-11-005,Ready,On Hold,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0016,2026-03-24 13:24:00,RM-4527,B-76-002,Reject,On Hold,Sinta QA,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,
+LOG-0207,2026-03-24 14:13:00,SP-2827,B-41-001,Ready,On Hold,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0167,2026-03-24 17:07:00,FG-9830,B-55-006,Reject,On Hold,Maya Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Budi Supervisor
+LOG-0027,2026-03-24 17:22:00,RM-4611,B-32-005,Ready,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0005,2026-03-24 17:24:00,FG-2489,B-41-002,Reject,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0130,2026-03-24 20:30:00,PK-3677,B-36-004,Ready,Reject,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0067,2026-03-24 22:30:00,PK-3664,B-08-001,Reject,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0094,2026-03-25 00:44:00,SP-8433,B-86-003,Reject,Need Review,System AI,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0093,2026-03-25 01:15:00,PK-6313,B-71-002,Need Review,Need Review,Budi Supervisor,The record is incomplete and cannot be safely approved without filling the missing fields.,Maya Supervisor
+LOG-0188,2026-03-25 07:43:00,PK-6313,B-71-002,Reject,Need Review,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0112,2026-03-25 09:37:00,FG-3621,B-62-002,Ready,Unreleased,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0196,2026-03-25 09:58:00,FG-3621,B-65-003,Unreleased,Reject,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0089,2026-03-25 10:03:00,FG-8019,B-28-007,Unreleased,Ready,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0007,2026-03-25 11:14:00,PK-4483,B-97-001,Reject,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0003,2026-03-25 14:06:00,FG-9830,B-50-002,On Hold,Unreleased,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0198,2026-03-25 14:15:00,PK-4483,B-97-001,Reject,Need Review,Maya Supervisor,The record is incomplete and cannot be safely approved without filling the missing fields.,Maya Supervisor
+LOG-0021,2026-03-25 15:51:00,RM-4811,B-52-003,Reject,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0164,2026-03-25 17:13:00,PK-3664,B-08-001,Need Review,Reject,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0059,2026-03-25 18:24:00,FG-7811,B-63-004,Unreleased,On Hold,Budi Supervisor,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0183,2026-03-25 20:06:00,RM-4811,B-40-002,Need Review,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0072,2026-03-26 00:27:00,RM-8527,B-66-002,Reject,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0178,2026-03-26 01:20:00,RM-2584,B-30-001,Ready,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0066,2026-03-26 01:39:00,FG-7811,B-01-001,On Hold,Unreleased,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0169,2026-03-26 01:40:00,RM-4611,B-67-002,Need Review,Need Review,Budi Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Sinta QA
+LOG-0151,2026-03-26 06:09:00,RM-4811,B-92-001,On Hold,Need Review,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0159,2026-03-26 09:04:00,RM-8527,B-86-005,Need Review,Need Review,Rina Ops,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0040,2026-03-26 10:15:00,RM-4657,B-99-001,Ready,Need Review,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0149,2026-03-26 11:30:00,SP-1188,B-75-003,Reject,Ready,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0122,2026-03-26 11:51:00,RM-2824,B-09-003,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0065,2026-03-26 14:28:00,PK-4733,B-13-006,Ready,Need Review,Sinta QA,The record is incomplete and cannot be safely approved without filling the missing fields.,Maya Supervisor
+LOG-0042,2026-03-26 15:36:00,FG-3621,B-65-003,Ready,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0039,2026-03-26 16:08:00,RM-7912,B-78-002,Reject,Reject,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0046,2026-03-26 18:07:00,SP-2827,B-92-005,Reject,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0206,2026-03-26 19:36:00,RM-3615,B-03-003,Need Review,Need Review,Maya Supervisor,The record is incomplete and cannot be safely approved without filling the missing fields.,
+LOG-0058,2026-03-26 20:32:00,FG-8019,B-85-001,On Hold,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0050,2026-03-26 22:15:00,SP-2827,B-27-003,Reject,Need Review,Sinta QA,The submitted quantity deviates from expected patterns and should be verified by the operator.,Sinta QA
+LOG-0045,2026-03-26 22:18:00,SP-8433,B-39-005,On Hold,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0205,2026-03-27 00:54:00,RM-4657,B-61-005,Need Review,Need Review,System AI,The submitted quantity deviates from expected patterns and should be verified by the operator.,Maya Supervisor
+LOG-0170,2026-03-27 01:55:00,RM-4611,B-16-004,Reject,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0109,2026-03-27 03:21:00,RM-7912,B-70-005,Reject,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0031,2026-03-27 13:10:00,RM-2584,B-05-003,On Hold,Ready,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0029,2026-03-27 14:00:00,PK-6313,B-13-003,Reject,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0137,2026-03-27 14:08:00,RM-4611,B-67-002,On Hold,Need Review,Maya Supervisor,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0154,2026-03-27 14:28:00,RM-2824,B-09-003,Ready,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0090,2026-03-27 15:26:00,RM-1842,B-82-003,Need Review,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0209,2026-03-27 16:42:00,RM-1842,B-81-001,Reject,Need Review,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Sinta QA
+LOG-0101,2026-03-27 17:50:00,PK-4483,B-31-002,Reject,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0048,2026-03-27 18:28:00,FG-7811,B-47-007,On Hold,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0210,2026-03-27 18:53:00,RM-1842,B-81-001,Need Review,Reject,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0103,2026-03-27 19:30:00,RM-4611,B-16-004,Ready,Need Review,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0166,2026-03-28 03:17:00,FG-2040,B-66-003,Reject,On Hold,System AI,The record is incomplete and cannot be safely approved without filling the missing fields.,Sinta QA
+LOG-0177,2026-03-28 03:58:00,PK-4733,B-61-002,Ready,Need Review,Sinta QA,The submitted quantity deviates from expected patterns and should be verified by the operator.,
+LOG-0071,2026-03-28 05:28:00,PK-3677,B-36-004,Ready,On Hold,Maya Supervisor,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Sinta QA
+LOG-0165,2026-03-28 15:52:00,PK-3664,B-08-001,Reject,Need Review,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0123,2026-03-28 16:55:00,PK-3664,B-08-001,Ready,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0104,2026-03-28 23:03:00,PK-3664,B-08-001,Reject,Need Review,Maya Supervisor,The item appears in a location that is not aligned with its category or current status.,
+LOG-0140,2026-03-28 23:04:00,PK-4483,B-31-002,Ready,Ready,Rizal Gudang,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0011,2026-03-28 23:08:00,FG-4593,B-95-002,On Hold,On Hold,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Budi Supervisor
+LOG-0077,2026-03-29 00:06:00,FG-7811,B-77-002,On Hold,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0124,2026-03-29 02:56:00,PK-4733,B-61-002,Need Review,Ready,Anita Dispatch,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0172,2026-03-29 02:58:00,FG-8668,B-31-002,Reject,On Hold,System AI,The submitted quantity deviates from expected patterns and should be verified by the operator.,
+LOG-0146,2026-03-29 05:14:00,FG-3340,B-08-005,Ready,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0127,2026-03-29 07:46:00,FG-8019,B-38-006,Ready,On Hold,Sinta QA,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Budi Supervisor
+LOG-0129,2026-03-29 08:33:00,FG-7811,B-03-005,Unreleased,On Hold,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Budi Supervisor
+LOG-0087,2026-03-29 08:52:00,SP-8433,B-86-003,Ready,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0202,2026-03-29 11:19:00,RM-4527,B-30-001,Reject,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0193,2026-03-29 12:06:00,SP-8433,B-39-005,Need Review,Need Review,Maya Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Budi Supervisor
+LOG-0191,2026-03-29 15:58:00,SP-8433,B-86-003,On Hold,Ready,Rizal Gudang,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0144,2026-03-29 20:57:00,PK-0291,B-98-005,Reject,Need Review,Rina Ops,The record is incomplete and cannot be safely approved without filling the missing fields.,Sinta QA
+LOG-0192,2026-03-30 02:23:00,SP-5315,B-80-006,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0043,2026-03-30 03:13:00,PK-3664,B-52-002,Need Review,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0073,2026-03-30 04:26:00,RM-1842,B-81-001,Reject,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0180,2026-03-30 07:29:00,RM-2824,B-63-002,Need Review,Reject,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0022,2026-03-30 09:09:00,RM-3615,B-09-001,Need Review,Need Review,Sinta QA,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0113,2026-03-30 09:19:00,SP-8433,B-39-005,Need Review,Need Review,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Budi Supervisor
+LOG-0118,2026-03-30 10:13:00,RM-2824,B-94-001,Need Review,Ready,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0025,2026-03-30 10:18:00,RM-6925,B-28-001,On Hold,On Hold,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0015,2026-03-30 14:22:00,RM-4527,B-81-007,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0179,2026-03-30 14:48:00,FG-4593,B-95-002,On Hold,On Hold,System AI,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0053,2026-03-30 15:00:00,PK-4733,B-13-005,Need Review,Need Review,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0128,2026-03-30 15:01:00,FG-3621,B-62-002,Unreleased,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0041,2026-03-30 18:29:00,RM-4527,B-91-006,Ready,Need Review,Dewi QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0200,2026-03-30 19:01:00,RM-2824,B-94-001,Need Review,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0092,2026-03-30 21:51:00,RM-6925,B-28-001,On Hold,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0208,2026-03-30 22:54:00,FG-8668,B-52-003,Unreleased,On Hold,System AI,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0037,2026-03-30 23:10:00,FG-4593,B-70-003,Ready,On Hold,Maya Supervisor,The record is incomplete and cannot be safely approved without filling the missing fields.,Sinta QA
+LOG-0143,2026-03-31 01:46:00,FG-8668,B-31-002,On Hold,On Hold,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Maya Supervisor
+LOG-0120,2026-03-31 02:09:00,SP-9797,B-73-007,Reject,Ready,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0153,2026-03-31 03:07:00,PK-3664,B-08-001,Ready,Reject,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0111,2026-03-31 09:02:00,FG-8019,B-92-002,Reject,Reject,Rizal Gudang,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0014,2026-03-31 11:46:00,FG-2489,B-96-001,Unreleased,On Hold,Budi Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,Sinta QA
+LOG-0199,2026-03-31 12:48:00,PK-4733,B-61-002,Need Review,Need Review,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0155,2026-03-31 13:18:00,RM-1842,B-81-001,Ready,On Hold,Sinta QA,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Budi Supervisor
+LOG-0125,2026-03-31 14:52:00,SP-5315,B-97-002,Ready,On Hold,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0106,2026-03-31 19:01:00,RM-0059,B-08-002,On Hold,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0057,2026-03-31 20:29:00,SP-5315,B-59-005,Reject,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0083,2026-04-01 02:00:00,RM-4527,B-29-003,Reject,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0185,2026-04-01 02:29:00,SP-5315,B-02-004,Need Review,Need Review,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Budi Supervisor
+LOG-0019,2026-04-01 05:52:00,SP-9797,B-54-004,Ready,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0030,2026-04-01 07:26:00,SP-9797,B-54-004,Reject,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0056,2026-04-01 08:31:00,RM-3615,B-09-001,Need Review,Need Review,Maya Supervisor,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0099,2026-04-01 08:54:00,SP-9797,B-06-001,On Hold,Need Review,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0213,2026-04-01 09:42:00,RM-1842,B-01-001,Ready,On Hold,Sinta QA,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Budi Supervisor
+LOG-0214,2026-04-01 09:47:00,PK-0291,B-02-001,Ready,Need Review,System AI,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0215,2026-04-01 09:58:00,FG-7811,B-03-001,Unreleased,On Hold,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0190,2026-04-01 11:22:00,FG-2040,B-24-005,Reject,Reject,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0010,2026-04-01 12:42:00,PK-3664,B-08-001,Need Review,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Maya Supervisor
+LOG-0085,2026-04-01 13:56:00,SP-8433,B-17-002,Ready,Need Review,Sinta QA,The record is incomplete and cannot be safely approved without filling the missing fields.,Sinta QA
+LOG-0133,2026-04-01 16:59:00,RM-4611,B-57-001,Need Review,Need Review,Sinta QA,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0063,2026-04-01 17:27:00,RM-2584,B-09-002,Ready,On Hold,Budi Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0182,2026-04-01 17:40:00,RM-0059,B-11-005,On Hold,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0176,2026-04-01 18:14:00,PK-3664,B-52-002,Ready,Need Review,Sinta QA,The record is incomplete and cannot be safely approved without filling the missing fields.,Budi Supervisor
+LOG-0078,2026-04-01 19:00:00,PK-6313,B-71-002,Ready,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,Budi Supervisor
+LOG-0095,2026-04-01 20:52:00,RM-4657,B-71-006,On Hold,Need Review,Maya Supervisor,The record is incomplete and cannot be safely approved without filling the missing fields.,
+LOG-0024,2026-04-01 21:13:00,RM-8527,B-10-001,Need Review,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0197,2026-04-01 23:23:00,FG-9830,B-50-002,Reject,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0002,2026-04-01 23:38:00,PK-3677,B-24-003,Need Review,Ready,System AI,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0119,2026-04-02 00:09:00,RM-7912,B-70-005,Need Review,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0201,2026-04-02 01:08:00,FG-3621,B-62-002,Reject,On Hold,Maya Supervisor,The submitted quantity deviates from expected patterns and should be verified by the operator.,
+LOG-0212,2026-04-02 01:54:00,RM-8527,B-31-003,Reject,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0001,2026-04-02 04:39:00,SP-8433,B-51-001,Reject,On Hold,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0168,2026-04-02 04:42:00,RM-4527,B-01-004,Ready,On Hold,System AI,Manual status conflicts with the quality note. The item should not remain Ready while inspection is still pending.,Maya Supervisor
+LOG-0051,2026-04-02 10:02:00,SP-1188,B-32-002,Reject,Need Review,Maya Supervisor,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0160,2026-04-02 10:34:00,SP-2827,B-41-006,Need Review,Ready,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0134,2026-04-02 11:38:00,RM-7912,B-28-004,Ready,On Hold,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0110,2026-04-02 11:47:00,PK-3677,B-36-004,Need Review,Need Review,Sinta QA,The item appears in a location that is not aligned with its category or current status.,
+LOG-0069,2026-04-02 14:29:00,RM-6925,B-70-002,On Hold,Reject,Aldi Pratama,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0006,2026-04-02 14:30:00,PK-2169,B-69-005,Reject,Need Review,System AI,The record is incomplete and cannot be safely approved without filling the missing fields.,Maya Supervisor
+LOG-0084,2026-04-02 15:12:00,PK-7227,B-07-006,Need Review,Need Review,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0108,2026-04-02 19:41:00,PK-3664,B-52-002,Reject,Need Review,Sinta QA,The record is incomplete and cannot be safely approved without filling the missing fields.,Sinta QA
+LOG-0052,2026-04-02 19:50:00,PK-7572,B-84-001,Need Review,Need Review,Budi Supervisor,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,
+LOG-0055,2026-04-02 21:02:00,PK-4483,B-22-003,Reject,Reject,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0076,2026-04-02 21:10:00,FG-3621,B-62-002,On Hold,Reject,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Maya Supervisor
+LOG-0038,2026-04-02 23:48:00,FG-2489,B-96-001,Unreleased,On Hold,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0035,2026-04-03 04:20:00,SP-9797,B-73-007,Reject,On Hold,System AI,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0141,2026-04-03 04:32:00,FG-8019,B-20-004,On Hold,Ready,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Sinta QA
+LOG-0074,2026-04-03 05:49:00,PK-7572,B-84-001,Ready,Ready,Sinta QA,Record passed primary checks and no high-risk anomaly was detected.,
+LOG-0033,2026-04-03 06:19:00,FG-7811,B-47-007,Reject,On Hold,Maya Supervisor,This record is likely a duplicate of a recent inbound update and should be reviewed before approval.,Budi Supervisor
+LOG-0162,2026-04-03 07:45:00,RM-1842,B-81-001,Reject,Need Review,Maya Supervisor,Record passed primary checks and no high-risk anomaly was detected.,Budi Supervisor
+LOG-0163,2026-04-03 08:07:00,FG-7811,B-01-001,On Hold,On Hold,Budi Supervisor,The item appears in a location that is not aligned with its category or current status.,Sinta QA
+LOG-0194,2026-04-03 09:15:00,RM-2824,B-94-001,Need Review,Reject,System AI,Record passed primary checks and no high-risk anomaly was detected.,

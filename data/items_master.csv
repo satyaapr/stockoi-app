@@ -1,0 +1,36 @@
+item_code,item_name,category,unit,standard_storage_location,allowed_status,max_hold_days,requires_quality_check
+RM-1842,Aluminum Coil A,Raw Material,rolls,Warehouse 02,Ready|On Hold|Reject|Need Review,7,yes
+PK-0291,Box Packaging B,Packaging,pcs,Inbound Dock,Ready|Need Review|Reject,3,no
+FG-7811,Finished Goods C,Finished Goods,units,Finished Goods Zone,Ready|Unreleased|On Hold|Reject,5,yes
+RM-0059,Resin D,Raw Material,kg,Warehouse 01,Ready|On Hold|Reject,10,yes
+RM-2824,Polymer Resin,Raw Material,kg,QA Hold Area,Ready|On Hold|Reject|Need Review,10,yes
+RM-4657,Steel Sheet,Raw Material,rolls,QA Hold Area,Ready|On Hold|Reject|Need Review,5,yes
+RM-7912,Copper Wire,Raw Material,kg,Warehouse 01,Ready|On Hold|Reject|Need Review,5,yes
+RM-4811,Adhesive Mix,Raw Material,kg,QA Hold Area,Ready|On Hold|Reject|Need Review,7,no
+RM-4611,PVC Granule,Raw Material,sheets,QA Hold Area,Ready|On Hold|Reject|Need Review,10,yes
+RM-3615,Rubber Compound,Raw Material,sheets,Warehouse 02,Ready|On Hold|Reject|Need Review,10,yes
+RM-4527,Industrial Solvent,Raw Material,liters,Warehouse 01,Ready|On Hold|Reject|Need Review,5,no
+RM-2584,Glass Fiber,Raw Material,liters,Warehouse 02,Ready|On Hold|Reject|Need Review,10,yes
+RM-8527,Silica Powder,Raw Material,kg,Warehouse 02,Ready|On Hold|Reject|Need Review,5,no
+RM-6925,Epoxy Base,Raw Material,rolls,QA Hold Area,Ready|On Hold|Reject|Need Review,5,yes
+PK-4733,Carton Box,Packaging,boxes,Inbound Dock,Ready|Need Review|Reject,3,yes
+PK-7227,Plastic Wrap,Packaging,boxes,Warehouse 03,Ready|Need Review|Reject,7,no
+PK-3664,Label Sticker,Packaging,boxes,Warehouse 03,Ready|Need Review|Reject,3,no
+PK-2169,Pallet Sleeve,Packaging,packs,Packaging Zone,Ready|Need Review|Reject,3,yes
+PK-3677,Foam Insert,Packaging,boxes,Warehouse 03,Ready|Need Review|Reject,5,yes
+PK-6313,Bottle Cap,Packaging,pcs,Inbound Dock,Ready|Need Review|Reject,3,no
+PK-7572,Safety Seal,Packaging,boxes,Inbound Dock,Ready|Need Review|Reject,3,no
+PK-4483,Printed Manual,Packaging,packs,Warehouse 03,Ready|Need Review|Reject,5,no
+FG-3340,Control Panel,Finished Goods,sets,Finished Goods Zone,Ready|Unreleased|On Hold|Reject,3,yes
+FG-9830,Power Module,Finished Goods,sets,Dispatch Zone,Ready|Unreleased|On Hold|Reject,7,yes
+FG-8019,Battery Pack,Finished Goods,boxes,Yard A,Ready|Unreleased|On Hold|Reject,5,yes
+FG-4593,Sensor Unit,Finished Goods,units,Dispatch Zone,Ready|Unreleased|On Hold|Reject,5,yes
+FG-2489,Valve Assembly,Finished Goods,units,Finished Goods Zone,Ready|Unreleased|On Hold|Reject,3,yes
+FG-3621,Cooling Fan,Finished Goods,boxes,Yard A,Ready|Unreleased|On Hold|Reject,7,yes
+FG-2040,Actuator Kit,Finished Goods,sets,Yard A,Ready|Unreleased|On Hold|Reject,7,yes
+FG-8668,Switch Board,Finished Goods,boxes,Yard A,Ready|Unreleased|On Hold|Reject,7,yes
+SP-1188,Bearing Kit,Spare Parts,pcs,Warehouse 03,Ready|On Hold|Reject|Need Review,10,no
+SP-9797,Hydraulic Pump,Spare Parts,kits,Warehouse 03,Ready|On Hold|Reject|Need Review,14,no
+SP-2827,Motor Belt,Spare Parts,kits,Warehouse 01,Ready|On Hold|Reject|Need Review,10,no
+SP-8433,Air Filter,Spare Parts,units,Warehouse 03,Ready|On Hold|Reject|Need Review,21,no
+SP-5315,Gearbox Oil,Spare Parts,pcs,Maintenance Cage,Ready|On Hold|Reject|Need Review,21,no

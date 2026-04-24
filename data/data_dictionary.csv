@@ -1,0 +1,30 @@
+file_name,column_name,description
+items_master.csv,item_code,Unique item identifier used across all files
+items_master.csv,item_name,Human-readable item name
+items_master.csv,category,"Inventory category such as Raw Material, Packaging, Finished Goods, Spare Parts"
+items_master.csv,unit,Measurement unit
+items_master.csv,standard_storage_location,Preferred storage location
+items_master.csv,allowed_status,Pipe-separated status values allowed for the item
+items_master.csv,max_hold_days,Threshold for aging on hold
+items_master.csv,requires_quality_check,Whether QA check is required
+location_master.csv,location_name,Readable warehouse or area name
+location_master.csv,allowed_categories,Pipe-separated categories allowed in the location
+location_master.csv,restricted_status,Statuses that should not appear in the location
+users.csv,role,"operator, supervisor, qa, or system"
+inventory_transactions.csv,transaction_id,Primary transaction key
+inventory_transactions.csv,batch_id,Batch / lot identifier
+inventory_transactions.csv,status,Submitted status at transaction time
+inventory_transactions.csv,source_type,"manual, batch_upload, or ocr_import"
+inventory_transactions.csv,note,Operator remark or system note
+validation_results.csv,duplicate_flag,AI/rule signal for duplicate risk
+validation_results.csv,completeness_score,Completeness score from 0 to 100
+validation_results.csv,location_consistency_flag,ok or warning
+validation_results.csv,aging_flag,yes or no
+validation_results.csv,recommended_status,System-recommended status
+validation_results.csv,risk_score,Synthetic risk score from 0 to 100
+validation_results.csv,anomaly_type,"none, duplicate_entry, status_conflict, invalid_location, aging_on_hold, missing_field, quantity_anomaly"
+validation_results.csv,ai_explanation,Short explanation for UI display
+audit_log.csv,previous_status,Status before change
+audit_log.csv,new_status,Status after change
+audit_log.csv,changed_by,User or system that changed the status
+audit_log.csv,approved_by,Supervisor/QA who approved the change
