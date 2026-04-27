@@ -859,7 +859,7 @@ export async function getValidationReportModel(selectedDate?: string) {
     : bundle.filters.availableDates[0] ?? formatDateInputValue(new Date());
 
   const snapshotCandidates = bundle.transactions
-    .filter((row) => row.date_key <= reportDate)
+    .filter((row) => row.date_key === reportDate)
     .sort((left, right) => +new Date(right.timestamp) - +new Date(left.timestamp));
 
   const snapshotMap = new Map<string, EnrichedTransaction>();

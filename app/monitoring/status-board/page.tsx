@@ -31,7 +31,7 @@ export default async function StatusBoardPage({ searchParams }: { searchParams?:
       </section>
 
       <section className="mt-5 grid gap-5 xl:grid-cols-[0.95fr_1.25fr] xl:items-start">
-        <Panel title="Real-time distribution" description="Operational status distribution." className="self-start">
+        <Panel title="Real-time distribution" description="Operational status distribution derived from the uploaded CSV bundle." className="self-start">
           <DonutChart segments={model.donutSegments} />
 
           <div className="mt-5 grid gap-3 sm:grid-cols-3">

@@ -170,7 +170,7 @@ export default async function DashboardPage({ searchParams }: { searchParams?: S
 
         <Panel
           title="Recent Material (Top 5)"
-          description="Latest validated material activity."
+          description="Latest validated material activity pulled from the CSV dataset."
           action={
             <Link href="/receiving/validation" className="text-sm font-medium text-[#2F6EF2] whitespace-nowrap hover:underline">
               View all
