@@ -852,14 +852,35 @@ export async function getUserManagementModel(filters: QueryFilters = {}) {
   return { users };
 }
 
-export async function getValidationReportModel(selectedDate?: string) {
+function normalizeReportDateRange(startDate?: string, endDate?: string) {
+  const fallback = formatDateInputValue(new Date());
+  const safeStart = startDate && /^\d{4}-\d{2}-\d{2}$/.test(startDate) ? startDate : fallback;
+  const safeEnd = endDate && /^\d{4}-\d{2}-\d{2}$/.test(endDate) ? endDate : safeStart;
+
+  if (safeStart > safeEnd) {
+    return { startDate: safeEnd, endDate: safeStart };
+  }
+
+  return { startDate: safeStart, endDate: safeEnd };
+}
+
+function formatReportRangeLabel(startDate: string, endDate: string) {
+  const startLabel = formatDateLabel(`${startDate}T00:00:00`);
+  const endLabel = formatDateLabel(`${endDate}T00:00:00`);
+  return startDate === endDate ? startLabel : `${startLabel} - ${endLabel}`;
+}
+
+export async function getValidationReportModel(startDateParam?: string, endDateParam?: string) {
   const bundle = await getBundle();
-  const reportDate = selectedDate && bundle.filters.availableDates.includes(selectedDate)
-    ? selectedDate
-    : bundle.filters.availableDates[0] ?? formatDateInputValue(new Date());
+  const latestAvailableDate = bundle.filters.availableDates[0] ?? formatDateInputValue(new Date());
+  const legacySingleDate = startDateParam && !endDateParam ? startDateParam : undefined;
+  const { startDate, endDate } = normalizeReportDateRange(
+    legacySingleDate ?? startDateParam ?? latestAvailableDate,
+    endDateParam ?? legacySingleDate ?? latestAvailableDate,
+  );
 
   const snapshotCandidates = bundle.transactions
-    .filter((row) => row.date_key === reportDate)
+    .filter((row) => row.date_key >= startDate && row.date_key <= endDate)
     .sort((left, right) => +new Date(right.timestamp) - +new Date(left.timestamp));
 
   const snapshotMap = new Map<string, EnrichedTransaction>();
@@ -875,11 +896,15 @@ export async function getValidationReportModel(selectedDate?: string) {
   );
 
   const { statusCards, totalCard } = buildStatusCards(snapshotRows);
-  const reportRange = buildDateRangeForSingleDay(reportDate);
+  const reportRangeLabel = formatReportRangeLabel(startDate, endDate);
 
   return {
-    reportDate,
-    reportDateLabel: formatDateLabel(`${reportDate}T00:00:00`),
+    reportDate: endDate,
+    reportDateLabel: reportRangeLabel,
+    reportStartDate: startDate,
+    reportEndDate: endDate,
+    reportStartDateLabel: formatDateLabel(`${startDate}T00:00:00`),
+    reportEndDateLabel: formatDateLabel(`${endDate}T00:00:00`),
     availableDates: bundle.filters.availableDates,
     rows: snapshotRows,
     statusCards,
@@ -890,7 +915,10 @@ export async function getValidationReportModel(selectedDate?: string) {
       highRisk: snapshotRows.filter((row) => row.risk_bucket === 'high').length,
       released: snapshotRows.filter((row) => row.display_status === 'Released').length,
     },
-    printHref: `/reporting/validation-report/print?date=${reportDate}`,
-    filterDefaults: reportRange,
+    printHref: `/reporting/validation-report/print?from=${startDate}&to=${endDate}`,
+    filterDefaults: {
+      dateFrom: startDate,
+      dateTo: endDate,
+    },
   };
 }

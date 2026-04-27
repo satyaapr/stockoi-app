@@ -5,15 +5,17 @@ import { getValidationReportModel } from '@/lib/data';
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
-function getDateParam(params: Record<string, string | string[] | undefined>) {
-  const raw = params.date;
+function getParam(params: Record<string, string | string[] | undefined>, key: string) {
+  const raw = params[key];
   return Array.isArray(raw) ? raw[0] : raw;
 }
 
 export default async function ValidationReportPrintPage({ searchParams }: { searchParams?: SearchParams }) {
   const rawParams = ((await searchParams) ?? {}) as Record<string, string | string[] | undefined>;
-  const date = getDateParam(rawParams);
-  const model = await getValidationReportModel(date);
+  const legacyDate = getParam(rawParams, 'date');
+  const from = getParam(rawParams, 'from') ?? legacyDate;
+  const to = getParam(rawParams, 'to') ?? legacyDate;
+  const model = await getValidationReportModel(from, to);
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
@@ -25,6 +27,7 @@ export default async function ValidationReportPrintPage({ searchParams }: { sear
           <div className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-400">STOCK.OI</div>
           <h1 className="mt-2 text-[32px] font-semibold tracking-tight text-slate-900">Validation Report</h1>
           <p className="mt-2 text-sm text-slate-600">Final material status snapshot for {model.reportDateLabel}.</p>
+          <p className="mt-1 text-xs text-slate-400">Sorted by newest update first.</p>
         </header>
 
         <section className="mb-6 grid gap-3 sm:grid-cols-4">
@@ -51,7 +54,7 @@ export default async function ValidationReportPrintPage({ searchParams }: { sear
             </thead>
             <tbody>
               {model.rows.map((row) => (
-                <tr key={`${row.item_code}-${row.batch_id}`}>
+                <tr key={`${row.item_code}-${row.batch_id}-${row.timestamp}`}>
                   <td>
                     <div className="font-semibold text-slate-900">{row.item_name}</div>
                     <div className="text-xs text-slate-400">{row.item_code}</div>
@@ -66,6 +69,9 @@ export default async function ValidationReportPrintPage({ searchParams }: { sear
               ))}
             </tbody>
           </table>
+          {model.rows.length === 0 ? (
+            <div className="px-5 py-8 text-center text-sm text-slate-500">No material status rows found for this date range.</div>
+          ) : null}
         </section>
       </div>
     </main>

@@ -76,3 +76,12 @@ http://localhost:3000
 ## Revisi Validation Report v3.1
 - Filter tanggal di Validation Report sekarang bersifat **tanggal spesifik**, bukan running snapshot.
 - Jika memilih `26/03/2026`, laporan dan halaman print hanya menampilkan material yang diperbarui pada `26/03/2026`, sehingga tanggal sebelumnya tidak ikut masuk ke PDF.
+
+## Update v3.2 - Validation Report Date Range
+
+Validation Report sekarang memakai dua tanggal:
+
+- **From Date**: tanggal awal report
+- **To Date**: tanggal akhir report
+
+Setelah apply date range, daftar status akhir material hanya mengambil data dalam rentang tanggal tersebut dan diurutkan dari update terbaru ke terlama. Fitur Print / Save PDF memakai rentang tanggal yang sama.
