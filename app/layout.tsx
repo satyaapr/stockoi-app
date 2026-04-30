@@ -5,6 +5,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'STOCK.OI',
   description: 'Inventory status control and anomaly detection dashboard for manufacturing operations.',
+  other: {
+    "dicoding:email": "sofyan7273@gmail.com",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
