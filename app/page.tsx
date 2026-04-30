@@ -27,7 +27,7 @@ export default async function DashboardPage({ searchParams }: { searchParams?: S
       <section className="mt-5 grid gap-5 xl:grid-cols-[1.06fr_1.55fr_1.05fr]">
         <Panel
           title="Receiving Activity"
-          description="Dashboard only shows the latest structured intake records captured through Smart Capture or batch upload."
+          description="Dashboard only shows the latest structured intake records captured through Receiving Automation or batch upload."
         >
           <div className="grid gap-3 sm:grid-cols-3">
             {model.receivingSourceMix.slice(0, 3).map((item) => (

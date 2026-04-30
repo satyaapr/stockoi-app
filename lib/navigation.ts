@@ -10,7 +10,7 @@ export const sidebarSections = [
   {
     label: 'Receiving',
     items: [
-      { title: 'Smart Capture', href: '/receiving/smart-capture', icon: 'Search' },
+      { title: 'Receiving Automation', href: '/receiving/receiving-automation', icon: 'Search' },
       { title: 'Validation', href: '/receiving/validation', icon: 'ShieldCheck' },
     ],
   },

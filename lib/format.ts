@@ -122,7 +122,7 @@ export function roleLabel(role: string) {
 export function sourceLabel(value: string) {
   switch (value) {
     case 'ocr_import':
-      return 'Smart Capture';
+      return 'Receiving Automation';
     case 'manual':
       return 'Manual Entry';
     case 'barcode_scan':

@@ -363,9 +363,9 @@ export async function getLayoutContext() {
     notificationItems,
     helpLinks: [
       {
-        label: 'Smart Capture',
+        label: 'Receiving Automation',
         description: 'Upload document images, PDFs, or batch files before sending them to validation.',
-        href: '/receiving/smart-capture',
+        href: '/receiving/receiving-automation',
       },
       {
         label: 'Validation Queue',
@@ -578,7 +578,7 @@ export async function getDigitalReceivingModel() {
     recentEntries: bundle.transactions.slice(0, 10),
     stats: {
       total: bundle.transactions.length,
-      smartCapture: bundle.transactions.filter((row) => row.source_label === 'Smart Capture').length,
+      receivingAutomation: bundle.transactions.filter((row) => row.source_label === 'Receiving Automation').length,
       pendingReview: bundle.transactions.filter((row) => row.display_status === 'Unreleased').length,
     },
   };
@@ -617,10 +617,10 @@ function buildCaptureSampleFromTransaction(row: EnrichedTransaction): CaptureSam
   };
 }
 
-export async function getSmartCaptureModel() {
+export async function getReceivingAutomationModel() {
   const bundle = await getBundle();
   const samples = bundle.transactions
-    .filter((row) => row.source_label === 'Smart Capture' || row.anomaly_type !== 'none')
+    .filter((row) => row.source_label === 'Receiving Automation' || row.anomaly_type !== 'none')
     .slice(0, 6)
     .map(buildCaptureSampleFromTransaction);
 
